@@ -2,75 +2,113 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jaat (2025) Movie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jaat (2025) – Fan Project</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G42XV9X8XD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-G42XV9X8XD');
+  </script>
+
   <style>
     body {
+      font-family: 'Poppins', sans-serif;
       margin: 0;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      background: linear-gradient(90deg, #d32f2f, #e53935);
-      color: #fff;
+      padding: 0;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: #f4f4f4;
       text-align: center;
-      padding: 2rem 1rem;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
+
     .container {
       max-width: 900px;
-      margin: 2rem auto;
-      padding: 1rem;
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin: auto;
+      padding: 20px;
     }
+
     .poster img {
       width: 100%;
-      height: auto;
-      border-radius: 8px;
+      max-height: 450px;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+      transition: transform 0.3s ease-in-out;
     }
+
+    .poster img:hover {
+      transform: scale(1.03);
+    }
+
     .details {
-      margin-top: 1.5rem;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 25px;
+      border-radius: 15px;
+      margin-top: 25px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+      text-align: left;
+      backdrop-filter: blur(6px);
     }
+
+    .details h2 {
+      margin-top: 0;
+      color: #ffcc00;
+      font-size: 26px;
+      border-bottom: 2px solid #ffcc00;
+      padding-bottom: 8px;
+    }
+
     .details p {
-      margin: 0.5rem 0;
+      font-size: 15px;
+      line-height: 1.7;
+      margin: 8px 0;
     }
+
+    .details strong {
+      color: #ffd700;
+    }
+
+    .download {
+      margin: 30px 0;
+    }
+
     .btn-download {
       display: inline-block;
-      margin-top: 1.5rem;
-      background-color: #d32f2f;
+      background: linear-gradient(90deg, #ff512f, #dd2476);
       color: #fff;
       text-decoration: none;
-      padding: 0.75rem 1.5rem;
-      border-radius: 6px;
+      padding: 14px 28px;
+      border-radius: 50px;
       font-weight: bold;
-      transition: background 0.3s ease;
+      font-size: 16px;
+      letter-spacing: 1px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+      transition: all 0.3s ease-in-out;
     }
+
     .btn-download:hover {
-      background-color: #b71c1c;
+      background: linear-gradient(90deg, #dd2476, #ff512f);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.6);
     }
+
     footer {
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-      background: #fafafa;
-      color: #666;
-      font-size: 0.9rem;
+      margin-top: 40px;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      color: #aaa;
+      font-size: 14px;
+      border-radius: 12px 12px 0 0;
     }
   </style>
 </head>
 <body>
-
-  <header>
-    <h1>🎬 Jaat (2025)</h1>
-    <p>Action • Drama • Thriller</p>
-  </header>
 
   <div class="container">
 
@@ -81,7 +119,7 @@
 
     <!-- Movie Details -->
     <div class="details">
-      <h2>Movie Details</h2>
+      <h2>🎬 Movie Details</h2>
       <p><strong>Title:</strong> Jaat (2025)</p>
       <p><strong>Language:</strong> Hindi</p>
       <p><strong>Genre:</strong> Action, Drama</p>
